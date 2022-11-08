@@ -13,6 +13,7 @@
 		AA9D7712291ACCC4002D0C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9D7710291ACCC4002D0C99 /* Main.storyboard */; };
 		AA9D7714291ACCC5002D0C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9D7713291ACCC5002D0C99 /* Assets.xcassets */; };
 		AA9D7717291ACCC5002D0C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9D7715291ACCC5002D0C99 /* LaunchScreen.storyboard */; };
+		AA9D771F291ACD10002D0C99 /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D771E291ACD10002D0C99 /* KeyChainHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA9D7713291ACCC5002D0C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9D7716291ACCC5002D0C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9D7718291ACCC5002D0C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9D771E291ACD10002D0C99 /* KeyChainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AA9D7713291ACCC5002D0C99 /* Assets.xcassets */,
 				AA9D7715291ACCC5002D0C99 /* LaunchScreen.storyboard */,
 				AA9D7718291ACCC5002D0C99 /* Info.plist */,
+				AA9D771E291ACD10002D0C99 /* KeyChainHelper.swift */,
 			);
 			path = LLaveroKeychain;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				AA9D770F291ACCC4002D0C99 /* ViewController.swift in Sources */,
 				AA9D770B291ACCC4002D0C99 /* AppDelegate.swift in Sources */,
 				AA9D770D291ACCC4002D0C99 /* SceneDelegate.swift in Sources */,
+				AA9D771F291ACD10002D0C99 /* KeyChainHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
